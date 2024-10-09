@@ -101,7 +101,6 @@ img {
   right: 150px;
 }
 .contact-links {
-  position: absolute;
   left: 120px;
   top: 10px;
   font-size: 16px;
@@ -114,6 +113,8 @@ img {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 body {
   color: #434455;
@@ -1116,7 +1117,7 @@ left: -230px;
     left: 10px;
     font-size: 16px;
   }
-  .contact-links a {
+  .nav-links .contact-links{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
